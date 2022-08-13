@@ -40,7 +40,7 @@ const extendClass = (function () {
 
 [2] 이번에는 Employee Prototype에 superClass가 있는지 찾아봅니다.
 마침 Employee의 Prototype에 superClass 메서드를 추가해주었군요!
-superClass는 Parent 메서드, 즉 Person 메서드가 연결되어있습니다.
+superClass는 Parent, 즉 Person 생성자 함수가 연결되어있습니다.
 즉, superClass(name, age)는 Person(name, age)를 실행하는 것입니다.
 
 [3] 이때 this.superClass의 this는 '인스턴스 객체'입니다.
